@@ -1,14 +1,12 @@
 ﻿using System;
-using Microsoft.Practices.Unity;
-using Xamarin.Forms;
 using Prism.Mvvm;
 using Prism.Navigation;
-using Prism.Services;
-using Prism.AppModel;
+using Unity;
+using Xamarin.Forms;
 
 namespace Prism.Unity
 {
-	public static class UnityExtensions
+    public static class UnityExtensions
 	{
 		/// <summary>
 		/// Registers a Page for navigation.

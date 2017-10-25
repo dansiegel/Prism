@@ -1,10 +1,11 @@
-﻿using Microsoft.Practices.Unity;
-using Prism.DI.Forms.Tests.Mocks.Modules;
+﻿using Prism.DI.Forms.Tests.Mocks.Modules;
 using Prism.DI.Forms.Tests.Mocks.Services;
 using Prism.DI.Forms.Tests.Mocks.ViewModels;
 using Prism.DI.Forms.Tests.Mocks.Views;
 using Prism.Modularity;
 using Prism.Navigation;
+using Unity;
+using Unity.Lifetime;
 using Xamarin.Forms;
 
 namespace Prism.Unity.Forms.Tests.Mocks

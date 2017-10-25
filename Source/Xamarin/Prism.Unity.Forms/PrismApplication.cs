@@ -1,5 +1,4 @@
-﻿using Microsoft.Practices.Unity;
-using Prism.AppModel;
+﻿using Prism.AppModel;
 using Prism.Common;
 using Prism.Events;
 using Prism.Logging;
@@ -10,6 +9,9 @@ using Prism.Services;
 using Prism.Unity.Extensions;
 using Prism.Unity.Modularity;
 using Prism.Unity.Navigation;
+using Unity;
+using Unity.Lifetime;
+using Unity.Resolution;
 using Xamarin.Forms;
 using DependencyService = Prism.Services.DependencyService;
 

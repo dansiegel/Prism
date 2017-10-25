@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Reflection;
-using Microsoft.Practices.ObjectBuilder2;
-using Microsoft.Practices.Unity;
+using Unity;
+using Unity.Builder;
+using Unity.Builder.Strategy;
 using Xamarin.Forms;
 
 namespace Prism.Unity.Extensions

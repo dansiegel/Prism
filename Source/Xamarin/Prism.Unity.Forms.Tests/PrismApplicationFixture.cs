@@ -1,17 +1,17 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Microsoft.Practices.Unity;
 using Prism.Common;
-using Prism.Unity.Forms.Tests.Mocks;
+using Prism.DI.Forms.Tests;
 using Prism.DI.Forms.Tests.Mocks.Modules;
 using Prism.DI.Forms.Tests.Mocks.Services;
 using Prism.DI.Forms.Tests.Mocks.ViewModels;
 using Prism.DI.Forms.Tests.Mocks.Views;
-using Prism.Unity.Navigation;
 using Prism.Navigation;
+using Prism.Unity.Forms.Tests.Mocks;
+using Prism.Unity.Navigation;
+using Unity;
 using Xamarin.Forms;
 using Xunit;
-using Prism.DI.Forms.Tests;
 
 namespace Prism.Unity.Forms.Tests
 {
