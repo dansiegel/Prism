@@ -22,7 +22,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Unity" Version="5.0.1" />
+    <PackageReference Include="Unity.Abstractions" Version="2.0.2" />
+    <PackageReference Include="Unity.Container" Version="5.0.1" />
   </ItemGroup>
 
   <ItemGroup>
