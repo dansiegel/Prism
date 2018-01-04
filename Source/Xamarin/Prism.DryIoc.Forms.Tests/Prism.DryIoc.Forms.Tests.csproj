@@ -2,10 +2,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp1.1</TargetFramework>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>Prism.DryIoc.Forms.Tests</RootNamespace>
-    <AssemblyName>Prism.DryIoc.Forms.Tests</AssemblyName>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
     <DefineConstants>$(DefineConstants);DryIoc</DefineConstants>
   </PropertyGroup>
 

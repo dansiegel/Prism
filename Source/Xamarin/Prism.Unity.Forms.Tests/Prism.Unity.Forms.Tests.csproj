@@ -2,10 +2,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp1.1</TargetFramework>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>Prism.Unity.Forms.Tests</RootNamespace>
-    <AssemblyName>Prism.Unity.Forms.Tests</AssemblyName>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wpa81+wp8</AssetTargetFallback>
     <DefineConstants>$(DefineConstants);Unity</DefineConstants>
   </PropertyGroup>
 
